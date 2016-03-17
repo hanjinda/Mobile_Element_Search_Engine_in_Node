@@ -1,0 +1,21 @@
+{
+    "_id" : ObjectId("56e4a007039a7512c900ebf4"),
+    "classname" : "android.widget.ImageButton",
+    "clicked" : false,
+    "content_desc" : "",
+    "destination_view" : null,
+    "docId" : "com.snapchat.android",
+    "height" : 46.416796875,
+    "id" : "com.snapchat.android:id/clear_search_bar",
+    "imageId" : "1000",
+    "pointer" : "1830f698",
+    "resource_id" : "com.snapchat.android:id/clear_search_bar",
+    "sessionId" : "56e3817315905ac1e7622a3e",
+    "text" : null,
+    "width" : 46.40625,
+    "x1" : 654.2708333333333,
+    "x2" : 700.6770833333333,
+    "xmlId" : "xml_log_1457750767897_1000.txt",
+    "y1" : 72.77695312499999,
+    "y2" : 119.19375
+}

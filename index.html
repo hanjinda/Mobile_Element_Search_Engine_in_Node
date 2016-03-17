@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <script src = "http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('myCtrl', function($scope, $http) {
+            $scope.submit=function()
+            {
+                $http.get('http://localhost:3001/search?text='+$scope.searchText).success(function(data) {
+                }).success(function(data, header, config, status){
+                    $scope.faq = data;
+                    //below 3 lines useless
+                    $scope.result_classname = 'classname: '+data.classname;
+                    $scope.result_id = 'id: '+data.id;
+                    $scope.result_text = 'text: '+data.text;
+                }).error(function(data,header,config,status){
+                });
+            }
+        });
+    </script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<center>
+<input type="text" size="50" ng-model = "searchText"/>
+<button ng-click="submit()">Search</button>
+</center>
+<br>
+
+<div ng-repeat="f in faq">
+<!--     <img src="./image/{{f.sessionId}}/img/{{f.imageId}}.png" style="width:150px;"/><br>
+ -->  <p>  {{"classname: "+f.classname}} <br> {{"id: "+f.id}}<br> {{"text: "+f.text}}<br>{{"sessionId: "+f.sessionId}}<p>
+
+</div>
+</body>
+</html>
