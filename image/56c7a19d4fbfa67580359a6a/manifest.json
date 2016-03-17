@@ -1,0 +1,22 @@
+{
+    "docid": "com.weheartit", 
+    "humanName": "Stefanus", 
+    "phone": {
+        "serial": "ZX1G22JPNS", 
+        "type": "PHYSICAL"
+    }, 
+    "registeredDate": "1455923655648", 
+    "session": {
+        "__v": 0, 
+        "_id": "56c7a19d4fbfa67580359a6a", 
+        "docid": "com.weheartit", 
+        "humanName": "Stefanus", 
+        "isBadApp": false, 
+        "isGreatApp": false, 
+        "searchImageCount": [], 
+        "sessionType": "exploring", 
+        "startDate": "2016-02-19T23:13:33.262Z", 
+        "state": "registered"
+    }, 
+    "sessionId": "56c7a19d4fbfa67580359a6a"
+}

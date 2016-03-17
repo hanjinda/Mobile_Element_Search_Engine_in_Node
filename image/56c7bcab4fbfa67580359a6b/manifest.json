@@ -1,0 +1,22 @@
+{
+    "docid": "com.whatsapp", 
+    "humanName": "Biplab", 
+    "phone": {
+        "serial": "ZX1G22JPNS", 
+        "type": "PHYSICAL"
+    }, 
+    "registeredDate": "1455931425696", 
+    "session": {
+        "__v": 0, 
+        "_id": "56c7bcab4fbfa67580359a6b", 
+        "docid": "com.whatsapp", 
+        "humanName": "Biplab", 
+        "isBadApp": false, 
+        "isGreatApp": false, 
+        "searchImageCount": [], 
+        "sessionType": "exploring", 
+        "startDate": "2016-02-20T01:08:59.519Z", 
+        "state": "registered"
+    }, 
+    "sessionId": "56c7bcab4fbfa67580359a6b"
+}
